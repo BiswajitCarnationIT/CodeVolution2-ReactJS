@@ -8,7 +8,7 @@ function StyleSheet(props) {  //any name as parameter?
             {/*
             <h1 className = 'primary'> Style </h1>
             */}
-            <h1 className = {class_Name}> Style </h1>
+            <h1 className = {`${class_Name} font-xl`}> Style </h1>
         </div>
     )
 }
