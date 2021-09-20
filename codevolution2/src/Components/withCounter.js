@@ -2,7 +2,7 @@
 
 import React from "react";
 
-const UpdatedComponent =  (OriginalComponent) => {
+const UpdatedComponent =  (OriginalComponent,incrementNumber) => {
     class NewComponent extends React.Component {
         constructor(props) {
             super(props)
@@ -13,7 +13,7 @@ const UpdatedComponent =  (OriginalComponent) => {
         }
         incrementCount= () => {
             this.setState( previousState => {  ///any name
-                return {count : previousState.count + 1}
+                return {count : previousState.count + incrementNumber}
             })
         }
         render(){
