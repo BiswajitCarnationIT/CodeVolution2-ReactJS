@@ -16,7 +16,7 @@ function App() {
     return (
       <div className="App">
         
-        <ClickCounter/>
+        <ClickCounter name = 'Biswajit'/>
         <HoverCounter/>
       </div>
     );
