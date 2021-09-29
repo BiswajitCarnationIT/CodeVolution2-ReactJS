@@ -13,6 +13,7 @@ import User from './Components/User';
 
 // use a prop whoes value is a function
 // how we can share functionality
+//not necesaary to name it as render
 
 function App() {
     return (
